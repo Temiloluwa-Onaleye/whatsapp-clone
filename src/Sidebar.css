@@ -41,3 +41,8 @@
 .sidebar__searchContainer >  .MuiSvgIcon-root{
     color: gray;
 }
+.sidebar__chats{
+    flex: 1;
+    overflow: scroll;
+    background-color: white;
+}
