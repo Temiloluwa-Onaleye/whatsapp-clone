@@ -1,4 +1,5 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+import firebase from 'firebase';
 const firebaseConfig = {
     apiKey: "AIzaSyCKj753i5t92pQye3-_u-qGpnm4Ltbzs7k",
     authDomain: "whatsapp-clone-49e45.firebaseapp.com",
@@ -14,5 +15,5 @@ const firebaseConfig = {
   const auth = firebase.auth();
   const provider = new firebase.auth.GoogleAuthProvider();
 
-  export{auth, provider}
+  export{auth, provider};
   export default db;
